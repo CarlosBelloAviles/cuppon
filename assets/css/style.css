@@ -1,0 +1,93 @@
+body {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+nav img {
+  width: 80px;
+  height: 30px;
+}
+
+.container {
+  max-width: 95%;
+}
+
+.row {
+  margin-bottom: 40px;
+}
+
+.direcciones {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: #707070;
+}
+.card-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #212529;
+}
+
+.card-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14pt;
+  color: #707070;
+}
+.precios {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 20px;
+}
+
+.precios .uno {
+  color: #707070;
+  font-size: 15px;
+}
+
+.precios .dos {
+  color: #28a745;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.cupones {
+  text-align: center;
+  color: white;
+  padding-top: 28px;
+  padding-bottom: 6px;
+}
+
+.formulario {
+  height: 280px;
+  color: #707070;;
+}
+
+.boton {
+  text-align: center;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #707070;
+}
+
+footer img {
+  width: 80px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+
